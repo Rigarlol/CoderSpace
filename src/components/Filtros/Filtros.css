@@ -1,0 +1,40 @@
+.container-filtro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.container-lista {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.itens-list {
+    width: 200px;
+    padding: 0.5em;
+    border: 1px solid var(--cor-borda);
+    background-color: var(--grafite);
+    
+}
+
+.itens-list:hover {
+    background-color: var(--offwhite);
+    color: var(--grafite);
+}
+
+.botaoLimpar {
+    background-color: transparent;
+    border: 1px solid var(--cor-borda);
+    color: var(--branco);
+    cursor: pointer;
+    padding: 0.5em 1em;
+    max-width: 200px;
+    max-height: 42px;
+}
+
+.botaoLimpar:hover {
+    background-color: var(--cor-destaque );
+    color: var(--branco);
+}

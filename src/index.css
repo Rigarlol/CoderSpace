@@ -1,0 +1,27 @@
+:root {
+  --cor-destaque: #7B78E5;
+  --background-gradiente: linear-gradient(174.61deg, #041833 4.16%, #04244F 48%, #154580 96.76%);
+  --cor-borda: #C98CF1; 
+  --grafite: #01080E;
+  --cinza-medio: #888888;
+  --cinza-escuro: #121212;
+  --offwhite: #e1e1e1;
+  --branco: #ffffff; 
+
+  --fonte: 'Prompt', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background-gradiente);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--branco);
+  font-family: var(--fonte);
+  min-height: 100vh;
+}
