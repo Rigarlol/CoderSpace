@@ -1,8 +1,36 @@
-# React + Vite
+# CoderSpace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+É um protótipo visual de uma rede social para nós desenvolvedores, desenvolvido para praticar as tecnologias React com JavaScript. Foi utilizado o Vite no projeto.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Vite**: Ferramenta de construção de frontend que oferece um ambiente de desenvolvimento rápido e moderno.
+
+## Funcionalidades
+
+- Cards de postagens dos usuários
+- Estilo visual atual
+
+## Como Executar o Projeto
+
+1. **Clone o Repositório:**
+
+   ```bash
+   git clone https://github.com/Rigarlol/CoderSpace.git
+   cd CoderSpace
+
+2. **Instale as dependências**
+
+   ```bash
+   npm install
+
+3. **Execute a aplicação**
+
+   ```bash
+   npm run dev
+
+4. Abra o Navegador:
+
+Acesse http://localhost:3000 para visualizar a aplicação.
+   
